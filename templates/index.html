@@ -1,0 +1,23 @@
+
+{% extends 'site.html' %}
+{% load static %}
+{% block site_title %}
+    Welcome to SportGears
+{% endblock %}
+{% block site_content %}
+    <section>
+        <img src="{% static 'images.jpg' %}">
+        <h1>Welcome to SportGears!</h1>
+        <h2>You can choose equipment for you and your family fighters!</h2>
+        <div>
+            <div>
+                Already have an account?
+                <button>Sing in</button>
+            </div>
+            <div>
+                Do not have an account?
+                <button>Sing up</button>
+            </div>
+        </div>
+    </section>
+{% endblock %}
